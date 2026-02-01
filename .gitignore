@@ -1,0 +1,71 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+dist/
+build/
+out/
+.vite/
+
+# Vite / Frontend build
+Frontend/AiLafda/dist/
+
+
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.*.log
+Backend/src/config/google-service-account.json
+
+# Coverage
+coverage/
+coverage-final.json
+*.lcov
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Security
+secrets.json
+
+# Optional package manager files
+# Uncomment if you use lockfiles you don't want committed
+# package-lock.json
+# yarn.lock
+node_modules/ 
+# Security - Explicitly ignore
+.env
+.env.production
+.env.local
+Backend/.env
+Frontend/Rapidlearn/.env
+Backend/src/config/*.json
+!Backend/src/config/package.json
+*firebase-adminsdk*.json 

@@ -1,0 +1,15 @@
+{
+    "name": "rapidlearn-deployment",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "install-backend": "npm install --prefix Backend",
+        "install-frontend": "npm install --prefix Frontend/Rapidlearn",
+        "build-frontend": "npm run build --prefix Frontend/Rapidlearn",
+        "build": "npm run install-backend && npm run install-frontend && npm run build-frontend",
+        "start": "npm start --prefix Backend"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
